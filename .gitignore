@@ -3,15 +3,12 @@
 *.o.*
 *.d
 *.def
-*.dll
 *.dylib
-*.exe
 *.exp
 *.gcda
 *.gcno
 *.h.c
 *.ilk
-*.lib
 *.pc
 *.pdb
 *.so
