@@ -1,5 +1,5 @@
-# Prebuild LGPL-2.1 FFmpeg with OpenH264 for Windows 64bit
-This project provides Prebuild LGPL v2.1 FFmpeg 3.4 binaries cross compiled with MinGW for Windows 64bit with OpenH264 to support H264 encoding.
+# LGPL-2.1 FFmpeg with OpenH264 for Windows 64bit
+This project provides Prebuilt LGPL v2.1 FFmpeg 3.4 binaries cross compiled with MinGW for Windows 64bit with OpenH264 to support H264 encoding.
 The binaries are located under `bin/` the used source files with `.lib` files under `source/`. Source is original master branch and was not modified.
 
 ## How to Use
@@ -29,7 +29,7 @@ Some parts of the guides are a bit outdated with dead links and wrong arguments 
 If you try to compile on Windows using MinGW or Cygwin you will spend a lot of time time alone for setting up the enviroment.
 Cross compiling under Linux is more easy but you need to have access to a machine with a toolchain for cross compiling.
 ### License
-Most of the prebuild binaries (except OpenCV) use libx264 and therefore the GPL license. This might be unwanted for some project.
+Most of the binaries (except OpenCV) use libx264 and therefore the GPL license. This might be unwanted for some project.
 ### OpenH264
 OpenH264 is under BSD license and used as a replacement for libx264 so you can still encode h264.
 
